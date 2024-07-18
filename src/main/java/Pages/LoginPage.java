@@ -77,7 +77,7 @@ public class LoginPage extends BaseLibrary {
     }
 
 
-    @Step("Login Butonuna Tıklanır")
+    @Step("Click on the 'Giriş Yap' button")
     public LoginPage clickLoginButton() throws InterruptedException {
         //[class="rui-apowA rui-E75l5 rui-UGVY0 _2sWUW rui-H9g30"]
         WebElement element= driver.findElement(By.cssSelector("[class='rui-apowA rui-E75l5 rui-UGVY0 _2sWUW rui-H9g30']"));
@@ -85,6 +85,7 @@ public class LoginPage extends BaseLibrary {
         return this;
     }
 
+    @Step("Error message check")
     public LoginPage getErrorMessage(String errMsgPassword){
         //[class="rui-IlMwo rui-DTzlG"]
         String value= driver.findElement(By.cssSelector("[class='rui-IlMwo rui-DTzlG']")).getText();
