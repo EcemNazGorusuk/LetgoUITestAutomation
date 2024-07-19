@@ -28,8 +28,19 @@ public class SettingsTests extends BaseTest {
 
         homePage.displayProfileIconButton();
         sleepThread(1000);
+
         userSettings.clickMySettingsButton();
         sleepThread(3000);
+
+        userSettings.enterCurrentPassword(password);
+        sleepThread(3000);
+
+        userSettings.enterNewPassword("ecemberkakkavak01New");
+        sleepThread(3000);
+
+        userSettings.enterNewPasswordConfirmation();
+        sleepThread(3000);
+        userSettings.changePassword();
 //
     }
 }
