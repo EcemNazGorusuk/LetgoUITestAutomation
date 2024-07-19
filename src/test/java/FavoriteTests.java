@@ -35,8 +35,6 @@ public class FavoriteTests extends BaseTest {
         mainPage.fillSearchBar("Araba");
         sleepThread(3000);
 
-
-
         productListPage.clickFirstProductCard();
         sleepThread(3000);
 
@@ -45,7 +43,5 @@ public class FavoriteTests extends BaseTest {
         homePage.clickMyListingsButton();
         sleepThread(3000);
         homePage.clickFavoritesButton();
-
-
     }
 }

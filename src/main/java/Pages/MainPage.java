@@ -9,8 +9,6 @@ import org.openqa.selenium.WebElement;
 
 public class MainPage extends BaseLibrary {
 
-
-
     @Step("Cookie Notification Control")
     public MainPage closeCokieNotificationButton() throws InterruptedException {
         // [class="onetrust-close-btn-handler onetrust-close-btn-ui banner-close-button ot-close-icon"]
@@ -48,8 +46,6 @@ public class MainPage extends BaseLibrary {
     }
 
 
-
-    //kullanıcı profili iconuna gir -> ilanlarım tıkla ->favoriler tıkla
     //ayarlar -> şifre değiştir hatalı şifre boş şifre doğru şifre değişimleri
 
 }
