@@ -4,6 +4,7 @@ import Base.BaseLibrary;
 import io.qameta.allure.Step;
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 
 public class MainPage extends BaseLibrary {
@@ -20,5 +21,35 @@ public class MainPage extends BaseLibrary {
         return this;
     }
 
+
+    @Step("Search by selecting location check")
+    public MainPage checkSearchByLocation(String locationTitle) throws InterruptedException{
+        // [class="_1dasd"]
+        driver.findElement(By.cssSelector("[class='_1dasd']")).sendKeys(locationTitle);
+        return this;
+    }
+
+
+    @Step("The searched city is selected within the location box")
+    public MainPage selectSearchedCityInLocationBox() throws InterruptedException{
+        //[class="_3_Rdm"]
+        WebElement element =driver.findElement(By.cssSelector("[class='_3_Rdm']"));
+        element.click();
+        return this;
+    }
+
+
+    @Step("Search is performed")
+    public MainPage fillSearchBar(String searchText){
+        //[data-testid="suggestion"]
+        WebElement element = driver.findElement(By.xpath("//*[@id='container']/header/div/div/div[2]/div/div/div[2]/div/form/fieldset/div/input"));
+        element.sendKeys(searchText, Keys.ENTER);
+        return this;
+    }
+
+
+
+    //kullanıcı profili iconuna gir -> ilanlarım tıkla ->favoriler tıkla
+    //ayarlar -> şifre değiştir hatalı şifre boş şifre doğru şifre değişimleri
 
 }

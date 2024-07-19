@@ -63,7 +63,6 @@ public class SignupPage extends BaseLibrary {
             Assert.assertTrue("Checkbox should be selected", isSelected);
         }
 
-
         sleepThread(3000);
         return this;
     }

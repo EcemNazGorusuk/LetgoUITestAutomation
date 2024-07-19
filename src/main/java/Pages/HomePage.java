@@ -17,6 +17,26 @@ public class HomePage extends BaseLibrary {
         return this;
     }
 
+
+    @Step("Click on the 'İlanlarım' button")
+    public HomePage clickMyListingsButton() throws InterruptedException {
+        // [class="_1F3nk "]
+        sleepThread(4000);
+        WebElement element=driver.findElement(By.cssSelector("[class='_1F3nk']"));
+        element.click();
+        return this;
+    }
+
+
+    @Step("Click on the 'Favoriler' button")
+    public HomePage clickFavoritesButton() throws InterruptedException {
+        // class="_1CPM7"
+        sleepThread(4000);
+        WebElement element=driver.findElement(By.cssSelector("[class='_1CPM7']"));
+        element.click();
+        return this;
+    }
+
     @Step("Check viewing the name field when clicking on the profile icon")
     public HomePage checkViewNameField() throws InterruptedException {
         //[class="_31kC9"]
