@@ -12,10 +12,8 @@ public class ProductDetailPage extends BaseLibrary {
     @Step("Click on the 'Add to Favorites' button")
     public ProductDetailPage clickFavoriteButton(){
         // [class="rui-3a8k1 favoriteOff"]
-        // İkinci butona ulaşmak için
         WebElement secondButton = driver.findElement(By.xpath("(//div[@class='nfuKi _2bUlo']//button)[2]"));
         secondButton.click();
-
         return this;
     }
 }

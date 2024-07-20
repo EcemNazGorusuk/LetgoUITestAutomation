@@ -43,5 +43,6 @@ public class FavoriteTests extends BaseTest {
         homePage.clickMyListingsButton();
         sleepThread(3000);
         homePage.clickFavoritesButton();
+
     }
 }

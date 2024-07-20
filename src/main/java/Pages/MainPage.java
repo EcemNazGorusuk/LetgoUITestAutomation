@@ -45,7 +45,14 @@ public class MainPage extends BaseLibrary {
         return this;
     }
 
+   @Step("The select box is closed after the selection process is completed")
+    public MainPage closeSelectBox(){
+       WebElement emptySpaceElement = driver.findElement(By.xpath("//body")); // Veya uygun boş alanın XPath'ini kullanın
+       emptySpaceElement.click();
+       return this;
+   }
 
-    //ayarlar -> şifre değiştir hatalı şifre boş şifre doğru şifre değişimleri
+
+
 
 }

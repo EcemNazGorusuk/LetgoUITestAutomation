@@ -32,7 +32,7 @@ public class HomePage extends BaseLibrary {
     public HomePage clickFavoritesButton() throws InterruptedException {
         // class="_1CPM7"
         sleepThread(4000);
-        WebElement element=driver.findElement(By.cssSelector("[class='_1CPM7']"));
+        WebElement element=driver.findElements(By.cssSelector("[class='_1CPM7']")).get(1);
         element.click();
         return this;
     }
