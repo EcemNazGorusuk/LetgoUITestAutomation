@@ -41,6 +41,6 @@ public class SettingsTests extends BaseTest {
         userSettings.enterNewPasswordConfirmation();
         sleepThread(3000);
         userSettings.changePassword();
-//
+
     }
 }
