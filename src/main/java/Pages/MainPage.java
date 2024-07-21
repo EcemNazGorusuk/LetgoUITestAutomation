@@ -31,8 +31,7 @@ public class MainPage extends BaseLibrary {
     @Step("The searched city is selected within the location box")
     public MainPage selectSearchedCityInLocationBox() throws InterruptedException{
         //[class="_3_Rdm"]
-        WebElement element =driver.findElement(By.cssSelector("[class='_3_Rdm']"));
-        element.click();
+        driver.findElement(By.cssSelector("[class='_3_Rdm']")).click();
         return this;
     }
 

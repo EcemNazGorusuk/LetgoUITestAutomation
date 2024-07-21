@@ -44,6 +44,7 @@ public class CategoryTests extends BaseTest {
         sleepThread(3000);
 
         categoriesPage.selectProductFromCategory();
+        sleepThread(3000);
 
         categoriesPage.filterProductBrand();
         categoriesPage.filterMinimumPriceRange(500);
@@ -88,7 +89,7 @@ public class CategoryTests extends BaseTest {
         sleepThread(3000);
 
         categoriesPage.selectProductFromCategory();
-
+        sleepThread(3000);
         categoriesPage.filterProductBrand();
         categoriesPage.filterMinimumPriceRange(5000);
         categoriesPage.filterMaximumPriceRange(200);
