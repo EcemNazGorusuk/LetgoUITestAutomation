@@ -34,4 +34,4 @@
 <p>Using Allure Report, test results are clearly visualized, offering detailed reports that encompass test successes, failures, execution times, and various other critical metrics.</p>
 
 <h3 id="contributors">Contributors</h3> 
-<p> <a href="#https://github.com/EcemNazGorusuk">Ecem Naz Görüşük</a> - Project Developer and Main Contributor</p>
+<p> <a href="https://github.com/EcemNazGorusuk">Ecem Naz Görüşük</a> - Project Developer and Main Contributor</p>
