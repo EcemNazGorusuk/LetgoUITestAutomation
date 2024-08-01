@@ -5,6 +5,7 @@
 <ul>
   <li> <a href="#description">Project Decription</a></li>
   <li> <a href="#configuration">Project Configuration</a></li>
+  <li> <a href="#tests">Tests</a></li>
  
 </ul>
 
@@ -20,6 +21,12 @@
   <li><a>Allure Commandline</a></li>
 </ul>
 
+<h3 id="tests">Tests</h3>
+<p>This project includes the following types of tests:</p>
 
-
+<ul>
+  <li>Functional Tests: Tests the functionality of the web application.</li>
+  <li>User Scenarios: Simulates specific user scenarios.</li>
+  <li>Regression Tests: Verifies that existing features work after software updates.</li>
+</ul>
 
