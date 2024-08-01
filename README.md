@@ -5,5 +5,5 @@
 <ul>
   <li> <a href="#description">Project Decription</a></li>
 </ul>
-<h3>Project Description</h3>
+<h3 class="description">Project Description</h3>
 <p>This project is crafted to thoroughly test the functionalities of the letgo.com website. Using JUnit and Selenium, functional tests and user scenarios are meticulously executed. Detailed test reports are produced with the help of Allure Report. As an assignment for Techcareer, this project is under the careful supervision of Can Şeker.</p>
