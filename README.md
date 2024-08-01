@@ -37,3 +37,8 @@
 
 <h3 id="contributors">Contributors</h3> 
 <p> <a href="https://github.com/EcemNazGorusuk">Ecem Naz Görüşük</a> - Project Developer and Main Contributor</p>
+
+<h3 id="screenshots">Screenshots</h3> 
+<ul>
+  <li><img src="allure-screenshots/first.PNG"></li>
+</ul>
