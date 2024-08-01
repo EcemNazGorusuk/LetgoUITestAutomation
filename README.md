@@ -6,7 +6,8 @@
   <li> <a href="#description">Project Decription</a></li>
   <li> <a href="#configuration">Project Configuration</a></li>
   <li> <a href="#tests">Tests</a></li>
- 
+  <li> <a href="#results">Results</a></li>
+  <li> <a href="#contributors">Contributors</a></li>
 </ul>
 
 <h3 id="description">Project Description</h3>
@@ -23,10 +24,14 @@
 
 <h3 id="tests">Tests</h3>
 <p>This project includes the following types of tests:</p>
-
 <ul>
   <li>Functional Tests: Tests the functionality of the web application.</li>
   <li>User Scenarios: Simulates specific user scenarios.</li>
   <li>Regression Tests: Verifies that existing features work after software updates.</li>
 </ul>
 
+<h3 id="results">Results</h3>
+<p>Using Allure Report, test results are clearly visualized, offering detailed reports that encompass test successes, failures, execution times, and various other critical metrics.</p>
+
+<h3 id="contributors">Contributors</h3> 
+<p> <a href="#https://github.com/EcemNazGorusuk">Ecem Naz Görüşük</a> - Project Developer and Main Contributor</p>
