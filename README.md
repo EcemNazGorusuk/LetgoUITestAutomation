@@ -8,6 +8,8 @@
   <li> <a href="#tests">Tests</a></li>
   <li> <a href="#results">Results</a></li>
   <li> <a href="#contributors">Contributors</a></li>
+  <li> <a href="#screenshots">Screenshots</a></li>
+  
 </ul>
 
 <h3 id="description">Project Description</h3>
