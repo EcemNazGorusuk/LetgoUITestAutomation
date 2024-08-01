@@ -1,4 +1,4 @@
-<h1>TEST AUTOMATION PROJECT</h1>
+<h1>🧪TEST AUTOMATION PROJECT</h1>
 <p>Developed as a Techcareer assignment, this project targets the testing of the letgo.com website. It employs JUnit and Selenium for test automation, and Allure Report for visualizing test results. Can Şeker supervises the project.</p>
 
 <h2>Content Overview</h2>
