@@ -13,7 +13,7 @@
 </ul>
 
 <h3 id="description">Project Description</h3>
-<p>This project is crafted to thoroughly test the functionalities of the <a href="https://www.letgo.com/">letgo.com</a> website. Using JUnit and Selenium, functional tests and user scenarios are meticulously executed. Detailed test reports are produced with the help of Allure Report. As an assignment for Techcareer, this project is under the careful supervision of Can Şeker.</p>
+<p>This project is crafted to thoroughly test the functionalities of the <a href="https://www.letgo.com/">letgo.com</a> website. Using JUnit and Selenium, functional tests and user scenarios are meticulously executed. Detailed test reports are produced with the help of Allure Report. As an assignment for Techcareer, this project is under the careful supervision of Can Şeker and has been successfully completed.</p>
 
 <h3 id="configuration">Project Configuration</h3>
 <h4>Requirements</h4>
